@@ -1,0 +1,558 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ##Heading style starts here## */
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 2rem 0 4.5rem 0;
+}
+
+#banner-div {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("/resources/Banner\ Image.png");
+  background-repeat: no-repeat;
+
+  border-radius: 1rem;
+  height: 37.5rem;
+  width: 82.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#happy-new-year-text,
+#new-year-party-text {
+  font-family: "Merriweather", serif;
+}
+
+#happy-new-year-text {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+#new-year-party-text {
+  font-size: 4.5rem;
+  font-weight: 900;
+  text-align: center;
+}
+/* ##Heading style ends here## */
+
+/* ##Main section style starts here## */
+
+/* Div one goes here .The 'all-categories-div' */
+#all-categories-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#off-text {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 5.5rem;
+  font-weight: 700;
+  color: #ff0000;
+  margin: 0 0 32px 0;
+}
+
+#our-holyday-text {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #ff0000;
+  margin: 0 0 16px 0;
+}
+
+#all-cat-text {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+#all-categories-div img {
+  width: 50rem;
+  height: 31.25rem;
+  margin: 48px 0 48px 0;
+}
+/* Div one styling ends here. */
+
+/* Div two styling starts here.The 'welcome-to-midnight-div' */
+
+#welcome-to-midnight-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 2rem 0 4.5rem 0;
+  height: auto;
+}
+
+#welcome-to-midnight-div-child-one {
+  border-radius: 0.5rem;
+  height: 37.5rem;
+  width: 82.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("/resources/Vectorrr.png");
+  background-repeat: no-repeat;
+}
+
+#section-one,
+#section-two {
+  margin: 4rem;
+  height: 90%;
+}
+
+#section-one p {
+  color: white;
+}
+
+#text-one {
+  font-family: "Merriweather", serif;
+  font-size: 4rem;
+  font-weight: 900;
+  margin: 8rem 0 1rem 0.5rem;
+}
+
+#text-two {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  margin: 2.5rem 0 1rem 0.5rem;
+}
+
+#join-button-div button {
+  width: 105px;
+  height: 24px;
+  background: none;
+  color: white;
+  border: none;
+}
+
+#section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Div two styling endss here */
+
+/* Div three styling starts here. The 'place-new-park-div' */
+
+#place-new-park-div-child-one {
+  border-radius: 8px;
+  height: 30.125rem;
+  width: 82.5%;
+  margin: 2rem auto;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#details {
+  text-align: center;
+  font-size: 32px;
+  line-height: 56px;
+}
+
+#details p {
+  font-family: "Inter Tight", sans-serif;
+}
+
+#join-button button {
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  background: #ff0000;
+  color: white;
+  margin: 32px;
+  padding: 16px 32px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.residh-color {
+  color: #ff0000;
+}
+
+/* Div three styling ends here */
+
+/* Div four styling starts here. The 'coming-soon-div' */
+
+#coming-soon-div-child-one {
+  width: 82.5%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.coming-soon-container-divs {
+  width: 33.33%;
+}
+
+#coming-soon-text-div {
+  margin-right: 2rem;
+}
+#coming-soon-text-one {
+  color: red;
+  font-size: 24px;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 0 8px 0;
+}
+#coming-soon-text-two {
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+  margin: 8px 0 8px 0;
+}
+#coming-soon-text-three {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 8 0 8px 0;
+}
+
+#coming-soon-img-div {
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  border-radius: 50%;
+}
+
+#coming-soon-img-div-child-one {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 50%;
+}
+
+#coming-soon-year-div {
+  margin-left: 2rem;
+}
+
+#coming-soon-year-text-one {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  color: red;
+  margin: 0 0 8px 0;
+}
+
+#coming-soon-year-text-two {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 8px 0 8px 0;
+}
+#coming-soon-year-image {
+  width: 140px;
+  height: 140px;
+  margin: 16px 0 0 0;
+}
+
+/* Div four styling ends here */
+
+/* Div five styling starts here. The 'holidays-sale-div' */
+
+#holidays-sale-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#holidays-sale-text-div {
+  width: 66.75rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+#holidays-sale-text-one {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter Tight", sans-serif;
+}
+
+#holidays-sale-text-two {
+  font-size: 72px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+}
+
+#holidays-sale-text-three {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter Tight", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+#holidays-sale-img-div {
+  width: 1320px;
+  margin: 1rem 0;
+}
+#holidays-sale-img-one {
+  height: 206px;
+  width: 206px;
+  position: relative;
+  left: 775px;
+  top: -90px;
+  z-index: 1;
+}
+
+#holidays-sale-img-two {
+  height: 433px;
+  width: 429px;
+  position: relative;
+  right: -678px;
+  bottom: -5px;
+}
+
+#holidays-sale-img-three {
+  height: 440px;
+  width: 445px;
+  position: relative;
+  top: 200px;
+  right: 490px;
+  z-index: 1;
+}
+
+#holidays-sale-img-four {
+  border-radius: 16px 0 16px 16px;
+  height: 229px;
+  width: 1320px;
+  position: relative;
+}
+
+/* Div five styling ends here */
+
+/* Div six styling starts here. The 'our-awesome-portfolio-div' */
+
+#our-awesome-portfolio-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#our-awesome-portfolio-firstchild {
+  width: 82.5%;
+  margin: 5rem 0 5rem 0;
+}
+
+#our-awesome-portfolio-text-one {
+  color: #f00;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#our-awesome-portfolio-text-two {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+#our-awesome-portfolio-text-three {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter Tight", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+#our-awesome-portfolio-items-div {
+  margin: 2rem 0 0 0;
+}
+
+#our-awesome-portfolio-items-div img {
+  height: 400px;
+  width: 400px;
+  margin: 6px;
+  border-radius: 16px;
+}
+
+/* Div six styling ends here */
+
+/* Div seven styling starts here. The 'subscribe-news-div' */
+
+#subscribe-news-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#subscribe-news-div-firstchild {
+  border-radius: 16px;
+  background-color: rgba(255, 0, 0, 0.05);
+  margin: 5rem 0;
+  width: 82.5%;
+  height: 616px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#subscribe-news-div-mail-icon {
+  width: 150px;
+  height: 150px;
+  margin: 0 0 2.5rem 0;
+}
+
+#subscribe-news-div-texts-one {
+  color: #070211;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+#subscribe-news-div-texts-two {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  width: 896px;
+}
+
+#subscribe-news-div-inputfield {
+  height: 72px;
+  width: 648px;
+  display: flex;
+  margin: 2.5rem 0 0 0;
+}
+
+#email-input {
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  height: 72px;
+  width: 70%;
+  padding-left: 40px;
+  font-size: 18px;
+  border: none;
+}
+
+#btn-input {
+  width: 30%;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: white;
+  border: none;
+  font-size: 18px;
+}
+
+/* Div seven styling ends here */
+
+/* ##Main section style ends here## */
+
+/* ##Footer section style starts here## */
+
+#footer {
+  background-color: aquamarine;
+  background: #070211;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#footer-div {
+  width: 82.5%;
+  height: 509px;
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#adress-line {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+  width: 1200px;
+  margin: 1rem;
+}
+
+#adress-line-one,
+#adress-line-two {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+#adress-line-two-first-child,
+#adress-line-two-second-child {
+  display: flex;
+}
+
+#adress-line-two-first-child img,
+#adress-line-two-second-child img {
+  margin: 0 1rem;
+}
+
+.horizontal-line {
+  width: 82.5%;
+  height: 1px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+#footer-icons {
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#icon-div {
+  margin: 1rem auto;
+}
+
+#icon-div img {
+  margin: 1rem;
+}
+
+#copyright {
+  width: 1200px;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+}
+
+/* ##Footer section style endss here## */
